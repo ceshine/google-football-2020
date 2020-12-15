@@ -1,0 +1,5 @@
+football_env/
+__pycache__
+*.pth
+*.sav
+.mypy_cache
