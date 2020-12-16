@@ -2,6 +2,8 @@
 
 In short: **MLP and XGB Imitator Models**.
 
+[The link to the competition overview page](https://www.kaggle.com/c/google-football/).
+
 ## Commands
 
 Scrape episodes:
