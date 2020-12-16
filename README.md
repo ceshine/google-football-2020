@@ -33,8 +33,8 @@ cp cache/scaler.jbl scripts
 cd scripts && stickytape mlp_submission.py > main.py
 ```
 
-Test the submission locally:
+Test the submission locally (play 5 games):
 
 ```bash
-cd scripts && python test.py
+cd scripts && python test.py 5
 ```
