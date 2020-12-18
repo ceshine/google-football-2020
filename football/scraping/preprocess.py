@@ -69,7 +69,7 @@ def parse_filepath(filepath: Path, onehot: bool, offense_only: bool = True):
     features = np.stack(buffer_features, axis=0)
     targets = np.asarray(buffer_targets)
     joblib.dump([features, targets], target_filepath)
-    print(f"Skipped {cnt} steps due to game modes")
+    # print(f"Skipped {cnt} steps due to game modes")
 
 
 def main(onehot: bool = False, offense_only: bool = False):
