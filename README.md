@@ -55,6 +55,8 @@ Install Docker and [nvidia-docker](https://github.com/NVIDIA/nvidia-docker). The
 docker build -t football
 ```
 
+Update 20201221: an pre-built image is available now via `docker pull ceshine/google-football-2020`.
+
 Now you can run the commands in the above section inside a container (with GPU acceleration):
 
 ```bash
